@@ -113,6 +113,7 @@ def main():
     # prompt = """What is the Periodic Table?"""
     # input = answer(prompt)
     # response = infer(input, max_length=50, greedy_decoding=True) # notice that greedy_decoding is set to True, to get more accurate answers
+    # print(response[0]['generated_text']) # print the response
 
     # REVIEW EXAMPLE
     # prompt = """Google Translate est un service de traduction automatique neuronale multilingue développé par Google pour traduire du texte, des documents et des sites Web d'une langue à une autre. Il offre une interface de site Web, une application mobile pour Android et iOS et une API qui aide les développeurs à créer des extensions de navigateur et des applications logicielles."""
